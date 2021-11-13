@@ -1,0 +1,22 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enowqi/training-js.git"
+  },
+  "author": "enowqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enowqi/training-js/issues"
+  },
+  "homepage": "https://github.com/enowqi/training-js#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
