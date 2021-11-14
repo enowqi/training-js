@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Progress } from '@chakra-ui/progress';
 import { ChakraProvider } from '@chakra-ui/react';
@@ -9,7 +8,6 @@ function App() {
       <div className="App">
         <Progress value={50} />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
