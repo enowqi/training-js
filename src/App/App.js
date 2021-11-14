@@ -2,6 +2,9 @@ import './App.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Table, TableCaption, Tr, Th, Td, Thead, Tbody } from '@chakra-ui/table'
 import Quiz0 from '../Quiz/quiz000';
+import Quiz1 from '../Quiz/quiz001';
+import Quiz2 from '../Quiz/quiz002';
+import Quiz3 from '../Quiz/quiz003';
 
 function App() {
   return (
@@ -25,19 +28,19 @@ function App() {
             <Tr>
               <Td>001</Td>
               <Td>
-                {/* ここにクイズ001をおく */}
+                <Quiz1 />
               </Td>
             </Tr>
             <Tr>
               <Td>002</Td>
               <Td>
-                {/* ここにクイズ002をおく */}
+                <Quiz2 />
               </Td>
             </Tr>
             <Tr>
               <Td>003</Td>
               <Td>
-                {/* ここにクイズ003をおく */}
+                <Quiz3 />
               </Td>
             </Tr>
           </Tbody>
